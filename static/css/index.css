@@ -1,3 +1,120 @@
+/* div {
+    float: left;
+}
+
 div img{
     width: 25%;
+} */
+/* 版心 */
+.wrapper {
+    width: 1230px;
+    margin: 0 auto;
 }
+/* 头部 */
+.headr {
+    width: 503px;
+    height: 300px;
+    background-color: pink;
+    background-image: url(../img/1.jpg);
+}
+/* 标题 */
+.biaoti {
+   text-align: center;
+   font-size: 30px;
+   color: blue;
+}
+/* 图文排版 */
+.banner {
+    height: 915px;
+}
+.banner .wrapper {
+    
+    background-color: orange;
+}
+.banner .hd {
+    height: 115px;
+    background-color: #fff;
+    line-height: 115px;
+    font-size: 30px;
+    color: #666;
+}
+.banner .bd li {
+    float: left;
+    margin-right: 10px;
+    width: 300px;
+    height: 400px;
+    background-color: #f0f9f4;
+    background-size: contain;
+}
+.a1 {
+    background-image: url(../uplonds/识慧视频模糊图像分析处理系统/09.jpg);
+}
+.a2 {
+    background-image: url(../uplonds/识慧视频模糊图像分析处理系统/10.jpg);
+}
+.a3 {
+    background-image: url(../uplonds/识慧视频模糊图像分析处理系统/11.jpg);
+}
+.a4 {
+    background-image: url(../uplonds/识慧视频模糊图像分析处理系统/12.jpg);
+}
+.a5 {
+    background-image: url(../uplonds/识慧视频模糊图像分析处理系统/13.jpg);
+}
+.a6 {
+    background-image: url(../uplonds/识慧视频模糊图像分析处理系统/14.jpg);
+}
+.a7 {
+    background-image: url(../uplonds/识慧视频模糊图像分析处理系统/15.jpg);
+}
+.a8 {
+    background-image: url(../uplonds/识慧视频模糊图像分析处理系统/16.jpg);
+}
+.a9 {
+   background-image: url(../uplonds/影像真伪鉴定/01.jpg);
+}
+.a10 {
+    background-image: url(../uplonds/影像真伪鉴定/02.jpg);
+}
+.a11 {
+    background-image: url(../uplonds/影像真伪鉴定/03.jpg);
+}
+.a12 {
+    background-image: url(../uplonds/影像真伪鉴定/04.jpg);
+}
+.a13 {
+    background-image: url(../uplonds/影像真伪鉴定/05.jpg);
+}
+.a14 {
+    background-image: url(../uplonds/影像真伪鉴定/06.jpg);
+}
+.a15 {
+    background-image: url(../uplonds/影像真伪鉴定/07.jpg);
+}
+.a16 {
+    background-image: url(../uplonds/影像真伪鉴定/08.jpg);
+}
+.a17 {
+    background-image: url(../uplonds/全系列全波段CCD物证照相系统/dimian.png);
+}
+.a18 {
+    background-image: url(../uplonds/全系列全波段CCD物证照相系统/fengmian.png);
+}
+.a19 {
+    background-image: url(../uplonds/全系列全波段CCD物证照相系统/p1.png);
+}
+.a20 {
+    background-image: url(../uplonds/全系列全波段CCD物证照相系统/p2.png);
+}
+.banner .bd li:nth-child(4n) {
+    margin-right: 0;
+}
+.change {
+    height: 600px;
+}
+.bottom {
+    height: 100px;
+    background-color: #333;
+    color: #fff;
+  }
+  
